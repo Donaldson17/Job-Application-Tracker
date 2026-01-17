@@ -42,12 +42,6 @@ function App() {
     setJobs(jobs.map(job => job.id === id ? { ...job, ...updatedJob } : job)); // Update all fields for matching ID
   };
 
-  // Quick add job from openings list
-  const quickAddJob = (company, role) => {
-    const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
-    addJob({ company, role, date: today, status: 'Applied' }); // Add with today's date
-  };
-
   // Handle application submission with CV and details
   const handleApplicationSubmit = (applicationData) => {
     const today = new Date().toISOString().split('T')[0];
