@@ -1,6 +1,6 @@
 # Job Application Tracker
 
-A simple React app to track job applications and their status.
+A web application that helps job seekers organize and track their applications with visual status indicators. Includes search functionality and automatic data saving across browser sessions. **Tech: React, JavaScript, HTML, CSS**
 
 ## Features
 - Add job applications (company, role, date)
